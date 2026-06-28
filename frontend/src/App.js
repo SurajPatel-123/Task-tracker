@@ -3,7 +3,7 @@ import TaskForm from './components/TaskForm';
 import TaskItem from './components/TaskItem';
 import './App.css';
 
-const API_URL = 'https://task-tracker-backend-1h78.onrender.com';
+const API_URL = 'https://task-tracker-backend-1h78.onrender.com/api';
 
 function App() {
   const [tasks, setTasks] = useState([]); // डिफॉल्ट खाली एरे
